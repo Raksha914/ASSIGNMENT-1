@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inline Elements Example</title>
+    <style>
+      * {
+        font-family: Arial, sans-serif;
+      }
+      .highlight {
+        background-color: #d1e7dd;
+        padding: 2px 4px;
+        border-radius: 3px;
+      }
+      .small-text {
+        font-size: 12px;
+      }
+      img {
+        width: 300px;
+        height: 200px;
+      }
+      label,
+      input,
+      button,
+      textarea {
+        margin: 10px 0;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Examples of Inline Elements</h2>
+    <p>Visit<a href="#" target="_blank"> Website</a> for more information.</p>
+    <p>
+      This text is followed by a line break.<br />Here is some more text after
+      the break.
+    </p>
+    <p><button>Click Me!</button></p>
+    <p>This is <em>emphasized text</em> and this is <i>italicized text</i>.</p>
+    <p>
+      Here is an image:
+      <img src="https://tinyurl.com/23qbfx67" alt="image" />
+    </p>
+    <p>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" />
+    </p>
+    <p>
+      This is the
+      <small class="small-text">small text.</small>
+    </p>
+    <p>
+      This is a <span class="highlight">highlighted span element</span> inside a
+      paragraph.
+    </p>
+    <p>This is <strong>strong text</strong>, which is usually bold.</p>
+    <p>
+      This is the chemical formula for water: H<sub>2</sub>O. And here is a
+      superscript: 2<sup>nd</sup> place.
+    </p>
+    <p>
+      <label for="comments">Comments:</label><br />
+      <textarea
+        id="comments"
+        name="comments"
+        rows="4"
+        cols="30"
+        placeholder="Write your comments here..."
+      ></textarea>
+    </p>
+  </body>
+</html>

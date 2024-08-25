@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Semantic Web Application</title>
+    <style>
+      * {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #4caf50;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      nav {
+        background-color: #333;
+        padding: 10px;
+        text-align: end;
+      }
+      nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      main {
+        display: flex;
+        margin: 20px;
+      }
+      section {
+        flex: 70%;
+        padding: 20px;
+      }
+      aside {
+        flex: 30%;
+        padding: 20px;
+        background-color: #f4f4f4;
+        margin-left: 20px;
+      }
+      article {
+        margin-bottom: 20px;
+      }
+      article h2 {
+        color: #333;
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Semantic Web App</h1>
+    </header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+    <main>
+      <section>
+        <article>
+          <h2>Semantic Elements</h2>
+          <p>
+            Semantic elements carry meaning about structure and content of the
+            web page so that the developer and browser can understand the
+            purpose of the tag. Elements such as
+            <b> header, nav, img, aside, main, section, article , footer </b
+            >describe the purpose of the content.
+          </p>
+        </article>
+        <article>
+          <h2>Semantic elements in HTML</h2>
+          <p>
+            By using these elements, the code becomes more readable and
+            maintainable, promoting logical grouping of content. Semantic
+            elements also help browsers render pages more effectively, while
+            ensuring better compatibility with modern web standards.
+          </p>
+        </article>
+      </section>
+      <aside>
+        <h2>Related Links</h2>
+        <ul>
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">CSS</a></li>
+          <li><a href="#">Web</a></li>
+        </ul>
+      </aside>
+    </main>
+    <footer>
+      <p>My Semantic Web App</p>
+    </footer>
+  </body>
+</html>
