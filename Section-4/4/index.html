@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Card</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f4f4f4;
+      }
+      .product-card {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .product-card img {
+        width: 100%;
+        border-radius: 10px;
+      }
+      .product-card h2 {
+        margin: 15px 0 10px;
+        font-size: 22px;
+        text-align: center;
+      }
+      .product-card p {
+        margin: 10px 0;
+        text-align: center;
+        color: #666;
+      }
+      .product-card .price {
+        margin-top: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="product-card">
+      <img src="product-card.jpg" alt="Product Image" />
+      <h2>Product Name</h2>
+      <p>
+        This is a short description of the product. It's very nice and worth
+        buying.
+      </p>
+      <div class="price">$49.99</div>
+    </div>
+  </body>
+</html>
